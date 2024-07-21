@@ -1,7 +1,7 @@
 py_binary(
-    name = "pybind_module",
-    srcs = ["pybind_module.py"],
-    main = "pybind_module.py",
+    name = "pybind_module_example",
+    srcs = ["pybind_module_example.py"],
+    main = "pybind_module_example.py",
     # Notice that the dynamically built library is included as `data`.
     data = ["//extension:example_module_name.so",],
     visibility = ["//visibility:public"],

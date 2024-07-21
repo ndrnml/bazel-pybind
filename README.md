@@ -17,10 +17,11 @@ Tested with:
 ## TL;DR
 
 ```
-git clone <this repo> --depth 1
-cd <this repo>
-bazel run //something:hugo
-> Hugo output
+git clone git@github.com:ndrnml/bazel-pybind.git --depth 1
+cd bazel-pybind
+bazel run //python:pybind_module_example
+> C++ create default object
+> ...
 ```
 
 
