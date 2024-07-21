@@ -13,6 +13,7 @@ http_archive(
 
 http_archive(
   name = "pybind11",
+  # References local build file: pybind11.BUILD
   build_file = "@pybind11_bazel//:pybind11.BUILD",
   strip_prefix = "pybind11-a54eab92d265337996b8e4b4149d9176c2d428a6",
   urls = ["https://github.com/pybind/pybind11/archive/a54eab92d265337996b8e4b4149d9176c2d428a6.tar.gz"],
