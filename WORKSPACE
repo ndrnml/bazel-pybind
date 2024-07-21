@@ -1,5 +1,8 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
+# Note: These are outdated dependencies. As described here: https://github.com/pybind/pybind11_bazel/ it should be
+# possible to make it work with Bzlmod (https://bazel.build/versions/6.0.0/build/bzlmod).
+
 # Python pybind11 dependencies.
 http_archive(
   name = "pybind11_bazel",
