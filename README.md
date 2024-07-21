@@ -32,13 +32,13 @@ Contains the C++ project source files.
 
 `extension/`
 
-This is the enry point for the pybind11 glue code. This doesn't necessarily need
+This is the entry point for the pybind11 glue code. This doesn't necessarily need
 to go into a separate directory. It's purely for illustrative reasons.
 > Note: The folder in which the file with the PYBIND11_MODULE definition resides
-> `extension/pybind_bindings.cc` in this case. will also be the library name. E.g. in this 
+> `extension/pybind_bindings.cc` in this example  is also the library name. E.g. in this 
 > case the library will be imported as:
 > ```
-> import extension.hugodugo
+> from extension.hugodugo import ...
 > ```
 
 `python/`
